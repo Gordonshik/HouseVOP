@@ -1,0 +1,129 @@
+.items_text {
+    color: #fff;
+    text-align: center;
+    margin-bottom: 120px;
+    font-family: $roboto;
+}
+
+.second_screen_features {
+    display: block;
+    margin: 194px auto 0 auto;
+}
+
+#second_screen {
+    background: $background;
+}
+
+.second_screen_item {
+    margin-bottom: 53px;
+}
+
+.f-img {
+    margin-left: 35px;
+}
+
+.s-img {
+    margin-left: 13px;
+}
+
+.t-img {
+    margin-left: 13px;
+}
+
+.fo-img {
+    margin-left: 10px;
+}
+
+.our_flats {
+    color: $gold;
+    margin-bottom: 100px;
+    font-family: $playfair;
+}
+
+.loft_flat_img {
+    margin-bottom: 30px;
+}
+
+.loft_box {
+    position: relative;
+    display: inline-block;
+}
+
+.loft_text {
+    font-family: $raleway;
+    font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 28px;
+color: #FFFFFF;
+    color: #fff;
+    position: absolute;
+    top: 250px;
+    margin-left: 50px;
+}
+
+@media (max-width: 575.98px) { 
+  
+    .second_screen_features {
+        margin-bottom: -200px;
+    }
+
+    .our_flats {
+        margin-top: 200px;
+        text-align: center;
+    }
+
+    .lorem {
+        text-align: center;
+    }
+
+}
+
+// Малые девайсы («ландшафтные», >= 575px)
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    .our_flats {
+        text-align: center;
+    }
+
+    .loft_flat_img {
+        width: 550px;
+        height: 320px;
+    }
+
+    .loft_text {
+        margin-left: 60px;
+    }
+}
+
+// Средние девайсы («таблетки», >= 768px) 
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    .our_flats {
+        text-align: center;
+    }
+
+    .loft_flat_img {
+        width: 730px;
+        height: 320px;
+    }
+
+    .loft_text {
+        margin-left: 130px;
+    }
+}
+
+// Большие девайсы (большие десктопы, >= 992px)
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    .our_flats {
+        text-align: center;
+    }
+
+    .loft_flat_img {
+        width: 450px;
+        height: 300px;
+    }
+}
+
+// Большие девайсы (большие десктопы, >= 1200px)
+@media (min-width: 1200px) { 
+
+}

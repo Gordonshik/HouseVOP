@@ -1,0 +1,76 @@
+#footer  {
+    background: #2D343C;
+}
+
+.nav_footer {
+    margin-top: 72px;
+}
+
+.email {
+    color: $gold;
+}
+
+
+
+.fa-youtube {
+    font-size: 25px;
+    color: #fff;
+}
+
+.fa-vk {
+    font-size: 25px;
+    color: #fff;
+}
+
+.fa-facebook-f {
+    font-size: 25px;
+    color: #fff;
+}
+
+.fa-instagram {
+    font-size: 25px;
+    color: #fff;
+}
+
+.sm-icons {
+    letter-spacing: 23px;
+}
+
+
+@media (max-width: 575.98px) { 
+    .last_navbar_item {
+        text-align: center;
+    }
+
+    .sm-icons {
+        margin-left: 2.5em;
+    }
+}
+
+@media (max-width: 575.98px) { 
+    .last_navbar_item {
+        margin-left: 100px;
+    }
+}
+
+// Малые девайсы («ландшафтные», >= 575px)
+@media (min-width: 576px) and (max-width: 767.98px) { 
+.last_navbar_item {
+    margin-left: 160px;
+}
+}
+
+// Средние девайсы («таблетки», >= 768px) 
+@media (min-width: 768px) and (max-width: 991.98px) { 
+
+}
+
+// Большие девайсы (большие десктопы, >= 992px)
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+
+}
+
+// Большие девайсы (большие десктопы, >= 1200px)
+@media (min-width: 1200px) { 
+
+}

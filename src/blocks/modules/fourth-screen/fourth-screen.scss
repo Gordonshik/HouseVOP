@@ -1,0 +1,191 @@
+#fourth_screen {
+    background: $background;
+}
+
+.district_text {
+font-family: $playfair;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 48px;
+color: #fff;
+margin-bottom: 100px;
+}
+
+.map {
+    width: 1110px;
+height: 358px;
+margin-bottom: 180px;
+}
+
+
+.questions {
+    margin-bottom: 50px;
+}
+
+.questions_text {
+    font-family: Playfair Display;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 48px;
+color: $gold;
+}
+
+.fourth_screen {
+    background: $background;
+}
+
+.rectangle_bot {
+    margin-bottom: 180px;
+    margin-left: 35px;
+    margin-top: -5px;
+}
+
+
+.district_text {
+    font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 48px;
+color: #D4C17F;
+}
+
+.data_secure_text {
+    width: 250px;
+    margin-left: -30px;
+}
+
+@media (max-width: 575.98px) { 
+    .map__img {
+        width: 36.57%;
+    }
+
+    .questions {
+        margin-top: -200px;
+    }
+    
+    .district_text {
+        text-align: center;
+    }
+
+    .questions_text {
+        text-align: center;
+        margin-bottom: 100px;
+    }
+    
+    .rectangle {
+        height: 70px;
+        margin-left: -1px;
+    }
+    
+    .rectangle_bot {
+        margin-top: -10px;
+    }
+
+    .data_secure_text {
+        width: 120px;
+    }
+    
+    .recntagle_text_gold {
+        font-size: 5px;
+    }
+}
+
+// Малые девайсы («ландшафтные», >= 575px)
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    .map__img {
+        width: 510px;
+    }
+    
+    .district_text {
+        text-align: center;
+    }
+
+    .questions_text {
+        text-align: center;
+        margin-bottom: 100px;
+    }
+    
+    .rectangle {
+        height: 70px;
+        margin-left: -1px;
+    }
+    
+    .rectangle_bot {
+        margin-top: -10px;
+    }
+
+    .data_secure_text {
+        width: 150px;
+    }
+    
+    .recntagle_text_gold {
+        font-size: 5px;
+    }
+}
+
+// Средние девайсы («таблетки», >= 768px) 
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    .map__img {
+        width: 693px;
+    }
+    
+    .district_text {
+        text-align: center;
+    }
+
+    .questions_text {
+        text-align: center;
+        margin-bottom: 100px;
+    }
+    
+    .rectangle {
+        height: 70px;
+        margin-left: 30px;
+    }
+    
+    .rectangle_bot {
+        margin-top: -50px;
+        
+    }
+
+    .data_secure_text {
+        width: 150px;
+    }
+    
+    .recntagle_text_gold {
+        font-size: 5px;
+    }
+}
+
+// Большие девайсы (большие десктопы, >= 992px)
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+.map__img {
+    width: 960px;
+
+}
+
+.district_text {
+    text-align: center;
+}
+
+.questions_text {
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.rectangle {
+    width: 200px;
+    margin-left: 30px;
+}
+
+.rectangle_bot {
+    margin-top: -87px;
+}
+}
+
+// Большие девайсы (большие десктопы, >= 1200px)
+@media (min-width: 1200px) { 
+
+}

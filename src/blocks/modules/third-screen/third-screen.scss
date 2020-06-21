@@ -1,0 +1,211 @@
+.bg_buildings {
+    background-image: url(../../../img/svg/third-screen_bg.svg);
+    background-repeat: no-repeat;
+}
+
+
+
+.want_watch {
+    font-family: $playfair;
+    color: $gold;
+    margin-bottom: 50px;
+}
+
+.lorem {
+    font-family: $raleway;
+    color: #fff;
+    width: 535px;
+}
+
+.rectangle {
+    border-radius: 0px;
+background-color: rgba(255, 255, 255, 0.2);
+width: 255px;
+height: 50px;
+margin-left: 30px;
+
+.recntagle_text {
+    font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 27px;
+color: $silver;
+text-align: center;
+margin-top: 12px;
+}
+
+.data_secure_text {
+    font-style: normal;
+font-weight: normal;
+font-size: 13px;
+line-height: 16px;
+text-align: center;
+color: $silver;
+margin-top: 12px;
+}
+.data_secure_text_top {
+    font-style: normal;
+font-weight: normal;
+font-size: 13px;
+line-height: 16px;
+text-align: center;
+color: $silver;
+margin-top: 12px;
+}
+}
+
+#third_screen {
+    background: $background;
+}
+
+.data_secure_item {
+    background-color: rgba(255, 255, 255, 0);
+    opacity: 1;
+}
+
+.rectangle_gold {
+    background: $gold;
+    opacity: 1;
+
+    .recntagle_text_gold {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 27px;
+        color: #FFFFFF;
+        text-align: center;
+        margin-top: 12px;
+    }
+}
+
+.third_screen_second_col {
+    margin-top: 260px;
+}
+
+.third_screen_first_col {
+    margin-top: 180px;
+}
+
+.third_screen_second_col {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.video_presentation {
+    margin-top: 180px;
+}
+
+.video_presentation_img {
+    position: relative;
+    display: inline-block;
+margin-bottom: 180px;
+}
+
+.video_presentation_vector {
+position: absolute;
+margin-top: 275px;
+}
+
+.data_secure_text {
+    width: 250px !important;
+    margin-left: 10px;
+}
+
+@media (max-width: 575.98px) { 
+    .third_screen_row {
+        margin-top: -100px;
+    }
+    
+    .rectangle {
+        width: 90%;
+    }
+
+    .lorem {
+        width: 200px;
+        text-align: center;
+        margin-right: 40px;
+    }
+
+    .want_watch {
+        font-size: 30px;
+        text-align: center;
+        margin-left: -40px;
+    }
+
+    .video_presentation_vector {
+        margin-top: 150px;
+    }
+
+    
+}
+
+// Малые девайсы («ландшафтные», >= 575px)
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    .third_screen_row {
+        margin-top: -100px;
+    }
+
+    .lorem {
+        width: 240px;
+        text-align: center;
+        margin-right: 10px;
+    }
+
+    .want_watch {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .video_presentation_vector {
+        margin-top: 190px;
+    }
+
+    .third_screen_second_col {
+        margin-left: 20px;
+    }
+
+    .rectangle {
+        height: 150px;
+    }
+}
+
+// Средние девайсы («таблетки», >= 768px) 
+@media (min-width: 768px) and (max-width: 991.98px) { 
+.rectangle {
+    margin-top: -40px;
+}
+
+.lorem {
+    width: 300px;
+}
+
+.lorem {
+    margin-left: 60px;
+}
+
+.want_watch {
+    margin-left: 60px;
+}
+}
+
+// Большие девайсы (большие десктопы, >= 992px)
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    .rectangle {
+        margin-top: -80px;
+        margin-bottom: 90px;
+    }
+
+    .data_secure_text_top { 
+        margin-bottom: 95px !important;
+        }
+
+        .lorem {
+            margin-left: 70px;
+        }
+
+        .want_watch {
+            margin-left: 70px;
+        }
+}
+

@@ -1,0 +1,21 @@
+@import "helpers/variables";
+@import "helpers/mixins";
+@import "helpers/functions";
+@import "vendor/libs";
+@import "base/fonts";
+@import "base/general";
+@import "../blocks/modules";
+
+
+@font-face {
+    font-family: 'PostNoBillsJaffna-SemiBold';
+    src: url('PostNoBillsJaffna-SemiBold.eot');
+    src: url('PostNoBillsJaffna-SemiBold.eot?#iefix') format('embedded-opentype'),
+         url('PostNoBillsJaffna-SemiBold.svg#PostNoBillsJaffna-SemiBold') format('svg'),
+         url('PostNoBillsJaffna-SemiBold.ttf') format('truetype'),
+         url('PostNoBillsJaffna-SemiBold.woff') format('woff'),
+         url('PostNoBillsJaffna-SemiBold.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+  }
+
